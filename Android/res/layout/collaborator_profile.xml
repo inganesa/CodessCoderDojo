@@ -9,7 +9,7 @@
         android:layout_width="150dp"
         android:layout_height= "200dp"
         android:paddingLeft="10dp"
-        android:src="@drawable/ashley_profile" />
+        android:src="@drawable/rachel_profile" />
     
     <TextView
         android:layout_width="match_parent"
@@ -27,17 +27,11 @@
         android:text= "I'm Rachel! I have been designing my own web pages since '98. I enjoy going to hackathons in my spare time."
         android:textSize="18sp"/>
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/find_match" 
-        android:onClick="gotoSurvey"/>
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/edit_profile" />
+        android:text="See Rachel's Projects" />
 
 </LinearLayout>
