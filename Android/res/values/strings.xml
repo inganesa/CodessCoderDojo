@@ -11,5 +11,7 @@
     <string name="survey">New Match for Upcoming Event</string>
     <string name="survey_continue">Match Me!</string>
     <string name="answer_one_c">&lt;gk&gt;</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="find_match">Find Match for Next Event</string>
 
 </resources>

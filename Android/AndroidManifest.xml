@@ -25,6 +25,7 @@
         <activity android:name=".ProfileActivity" />
         <activity android:name=".SurveyActivity" />
         <activity android:name=".AdditionalQuestionsActivity" />
+        <activity android:name=".SetProfileActivity"/>
     </application>
 
 </manifest>
