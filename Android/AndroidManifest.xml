@@ -26,6 +26,9 @@
         <activity android:name=".SurveyActivity" />
         <activity android:name=".AdditionalQuestionsActivity" />
         <activity android:name=".SetProfileActivity"/>
+        <activity android:name=".CollaboratorActivity"/>
+        <activity android:name=".SplashActivity"/>
+        <activity android:name=".PairedActivity"/>
     </application>
 
 </manifest>
