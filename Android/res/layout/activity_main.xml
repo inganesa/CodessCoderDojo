@@ -45,7 +45,7 @@
 
         <Button
             android:id="@+id/sign_up"
-            android:onClick="gotoProfile"
+            android:onClick="gotoSetProfile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sign_in" />

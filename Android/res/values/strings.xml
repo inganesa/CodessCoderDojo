@@ -13,5 +13,6 @@
     <string name="answer_one_c">&lt;gk&gt;</string>
     <string name="edit_profile">Edit Profile</string>
     <string name="find_match">Find Match for Next Event</string>
+    <string name="collaborators_view">View Collaborators</string>
 
 </resources>

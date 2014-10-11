@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ashley Cortez"
+        android:text="Rachel Keslensky"
         android:paddingLeft="10dp"
         android:textSize="30dp" />
     
@@ -24,7 +24,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:paddingTop="5dp"
-        android:text="Hi, my name is Ashley. I have been programming for just one year, but I already love mobile development. I also like backpacking, cooking, and hanging out with my friends."
+        android:text= "I'm Rachel! I have been designing my own web pages since '98. I enjoy going to hackathons in my spare time."
         android:textSize="18sp"/>
 
     <Button

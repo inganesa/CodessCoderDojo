@@ -24,11 +24,21 @@ public class MainActivity extends Activity {
         return true;
     }
     
+    
+    //sends when not yet registered
     public void gotoRegister(View v){
     	
     	Intent intent = new Intent(this, ProfileActivity.class);
     	startActivity(intent);
     	
+    }
+    
+    
+    //sends you when already registered
+    public void gotoSetProfile(View v){
+    	
+    	Intent intent = new Intent(this, SetProfileActivity.class);
+    	startActivity(intent);
     }
 
     @Override
