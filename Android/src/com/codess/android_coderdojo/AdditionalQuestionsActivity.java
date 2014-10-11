@@ -1,9 +1,15 @@
 package com.codess.android_coderdojo;
 
-public class AdditionalQuestionsActivity {
+import android.app.Activity;
+import android.os.Bundle;
 
-	public AdditionalQuestionsActivity() {
-		// TODO Auto-generated constructor stub
+public class AdditionalQuestionsActivity extends Activity {
+
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+			super.onCreate(savedInstanceState);
+			setContentView(R.layout.additional_questions);
 	}
 
 }

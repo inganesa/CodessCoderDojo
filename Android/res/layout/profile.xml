@@ -28,6 +28,7 @@
 
     <Button
         android:id="@+id/button1"
+        android:onClick="gotoSurvey"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/end_new_profile" />

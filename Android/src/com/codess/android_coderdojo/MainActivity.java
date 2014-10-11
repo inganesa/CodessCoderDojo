@@ -1,11 +1,13 @@
 package com.codess.android_coderdojo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
-
+//aka login page
 public class MainActivity extends Activity {
 
     @Override
@@ -21,6 +23,13 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
+    
+    public void gotoRegister(View v){
+    	
+    	Intent intent = new Intent(this, ProfileActivity.class);
+    	startActivity(intent);
+    	
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -33,4 +42,5 @@ public class MainActivity extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
+    
 }

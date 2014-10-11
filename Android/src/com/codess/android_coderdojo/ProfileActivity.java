@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -39,6 +40,13 @@ public class ProfileActivity extends Activity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+    
+ public void gotoSurvey(View v){
+    	
+    	Intent intent = new Intent(this, SurveyActivity.class);
+    	startActivity(intent);
+    	
     }
     
 	public void DataPicker(View v) {
