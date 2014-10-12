@@ -46,12 +46,17 @@
             android:layout_height="wrap_content"
             android:text="Design" />
 
+        
         <Button
-            android:id="@+id/button1"
-            android:onClick="gotoAdditional"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/survey_continue"/>
+                android:id="@+id/button1"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/buttonshape_blue"
+                android:onClick="gotoAdditional"
+                android:text="@string/survey_continue"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
 
     </LinearLayout>
     

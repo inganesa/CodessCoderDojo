@@ -12,5 +12,18 @@
         android:paddingTop="20dp"
         android:text="You have been paired with Rachel!"
         android:textSize="18sp" />
+    
+    
+        <Button
+        android:id="@+id/button1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonshape_blue"
+        android:onClick="gotoCollaborator"
+        android:text="@string/see_profile"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+    
 
 </LinearLayout>
