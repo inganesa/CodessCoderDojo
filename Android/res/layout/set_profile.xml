@@ -7,37 +7,60 @@
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="150dp"
-        android:layout_height= "200dp"
+        android:layout_height="200dp"
         android:paddingLeft="10dp"
         android:src="@drawable/ashley_profile" />
-    
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ashley Cortez"
         android:paddingLeft="10dp"
+        android:text="Ashley Cortez"
         android:textSize="30dp" />
-    
-    <TextView 
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:paddingTop="5dp"
         android:text="Hi, my name is Ashley. I have been programming for just one year, but I already love mobile development. I also like backpacking, cooking, and hanging out with my friends."
-        android:textSize="18sp"/>
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/find_match" 
-        android:onClick="gotoSurvey"/>
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:text="@string/edit_profile" />
+        android:layout_gravity="center"
+        android:background="@drawable/buttonshape_blue"
+        android:onClick="gotoSurvey"
+        android:text="@string/find_match"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonshape_blue"
+        android:onClick="gotoMatch"
+        android:text="@string/edit_profile"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <!-- <Button -->
+    <!-- android:id="@+id/button2" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="@string/find_match" -->
+    <!-- android:onClick="gotoMatch"/> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/button1" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="@string/edit_profile" /> -->
 
 </LinearLayout>

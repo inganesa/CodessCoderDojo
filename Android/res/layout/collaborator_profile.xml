@@ -18,6 +18,7 @@
         android:paddingLeft="10dp"
         android:textSize="30dp" />
     
+    
     <TextView 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,11 +28,27 @@
         android:text= "I'm Rachel! I have been designing my own web pages since '98. I enjoy going to hackathons in my spare time."
         android:textSize="18sp"/>
 
+  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:paddingTop="5dp" />
+  
+  
+<!--     <Button -->
+<!--         android:id="@+id/button1" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:text="See Rachel's Projects" /> -->
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:id="@+id/rachels_projects"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:text="See Rachel's Projects" />
+        android:layout_gravity="center"
+        android:background="@drawable/buttonshape_blue"
+        android:paddingLeft="20dp"
+        android:text="See Rachel&apos;s Projects"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
 
 </LinearLayout>
